@@ -17,7 +17,7 @@ Proyek ini didesain dengan ruang lingkup yang padat dan terarah untuk memaksimal
 
 ## 🗺️ Roadmap Pengembangan
 Berikut adalah tahapan pengembangan proyek game ini:
-- [ ] **Setup & Pergerakan:** Inisialisasi proyek Unity dan pembuatan *First Person Controller*.
+- [x] **Setup & Pergerakan:** Inisialisasi proyek Unity dan pembuatan *First Person Controller*.
 - [ ] **Desain Level Dasar:** *Prototyping* lantai, dinding, dan pintu.
 - [ ] **Mekanik Senter:** Implementasi sistem lampu sorot (*toggle on/off*).
 - [ ] **Sistem Interaksi (Raycast):** Deteksi objek saat pemain menatap sekering dan input interaksi untuk mengambil barang.
@@ -26,6 +26,5 @@ Berikut adalah tahapan pengembangan proyek game ini:
 - [ ] **Polesan Akhir (Audio & Lighting):** Integrasi efek suara horor dan penyesuaian gelap-terangnya ruangan.
 
 ---
-*Developed by Sandzzz Dev | Sambas, Indonesia*
-*Sabtu, 14 Februari 2026*
+*Developed by Sandzzz Dev | Sambas, Indonesia | Sabtu, 14 Februari 2026*
 
