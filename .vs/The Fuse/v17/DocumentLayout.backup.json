@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\pintudepancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pintudepancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\menuutama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuutama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\sentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +38,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PintuDepanController.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuDepanController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PintuDepanController.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuDepanController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PintuDepanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:05:05.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PintuController.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PintuController.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PintuController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T07:51:43.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuUtama.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MenuUtama.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuUtama.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MenuUtama.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuUtama.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:14:02.403Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +85,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
               "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T14:35:07.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SenterController.cs",
               "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\SenterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SenterController.cs",
@@ -55,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MouseLook.cs",
               "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLook.cs",
@@ -67,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",

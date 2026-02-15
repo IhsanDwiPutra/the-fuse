@@ -48,7 +48,27 @@ public class PlayerInteract : MonoBehaviour
                         // Ubah tulisan menjadi menang
                         teksLayar.text = "Listrik Menyala! Keluarrr!!!";
                     }
+                } else if (hit.transform.CompareTag("Pintu")) {
+                    // Ambil script pintu controller
+                    PintuController pintu = hit.transform.GetComponentInParent<PintuController>();
 
+                    // Kalau scriptnya ketemu, suruh jalankan animasi!
+                    if (pintu != null) {
+                        pintu.InteraksiPintu();
+                    }
+                } else if (hit.transform.CompareTag("PintuDepan")) {
+                    PintuDepanController pintu = hit.transform.GetComponentInParent<PintuDepanController>();
+
+                    if (pintu != null) {
+                        pintu.InteraksiPintu();
+                    }
+                } else if (hit.transform.CompareTag("LemariBesar")) {
+                    Debug.Log("Halo dari lemari");
+                    LemariBesarController lemari = hit.transform.GetComponentInParent<LemariBesarController>();
+
+                    if (lemari != null) {
+                        lemari.InteraksiLemari();
+                    }
                 }
             }
         }
