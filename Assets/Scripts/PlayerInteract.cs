@@ -63,11 +63,46 @@ public class PlayerInteract : MonoBehaviour
                         pintu.InteraksiPintu();
                     }
                 } else if (hit.transform.CompareTag("LemariBesar")) {
-                    Debug.Log("Halo dari lemari");
                     LemariBesarController lemari = hit.transform.GetComponentInParent<LemariBesarController>();
 
                     if (lemari != null) {
                         lemari.InteraksiLemari();
+                    }
+                } else if (hit.transform.CompareTag("Laci")) {
+                    LaciController laci = hit.transform.GetComponent<LaciController>();
+
+                    if (laci != null) {
+                        laci.InteraksiLaci();
+                    }
+                } else if (hit.transform.CompareTag("KotakSekering")) {
+                    PintuKotakSekeringController pintu = hit.transform.GetComponentInParent<PintuKotakSekeringController>();
+
+                    if (pintu != null) {
+                        pintu.InteraksiPintuKotakSekering();
+                    }
+                } else if (hit.transform.CompareTag("TuasKotakSekering")) {
+                    TuasController tuas = hit.transform.GetComponentInParent<TuasController>();
+
+                    if (tuas != null) {
+                        tuas.InteraksiTuas();
+                    }
+                } else if (hit.transform.CompareTag("LaciDinding")) {
+                    LaciDindingController pintu = hit.transform.GetComponentInParent<LaciDindingController>();
+
+                    if (pintu != null) {
+                        pintu.InteraksiLaci();
+                    }
+                } else if (hit.transform.CompareTag("LaciDapur")) {
+                    LaciDapurController laci = hit.transform.GetComponentInParent<LaciDapurController>();
+
+                    if (laci != null) {
+                        laci.InteraksiLaci();
+                    }
+                } else if (hit.transform.CompareTag("PintuBawahDapur")) {
+                    PintuBawahDapurController pintu = hit.transform.GetComponentInParent<PintuBawahDapurController>();
+
+                    if (pintu != null) {
+                        pintu.InteraksiPintu();
                     }
                 }
             }

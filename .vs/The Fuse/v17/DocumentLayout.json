@@ -7,32 +7,8 @@
       "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\horror\\the fuse\\assets\\scripts\\lemaribesarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lemaribesarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\pintudepancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pintudepancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\menuutama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuutama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\sentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\horror\\the fuse\\assets\\scripts\\pintubawahdapurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34C6318-AE7F-7005-7AAE-2A269DDB4268}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pintubawahdapurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,58 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LemariBesarController.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\LemariBesarController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LemariBesarController.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\LemariBesarController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LemariBesarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Title": "PintuBawahDapurController.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuBawahDapurController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PintuBawahDapurController.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuBawahDapurController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PintuBawahDapurController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T16:11:07.504Z",
+              "WhenOpened": "2026-02-16T15:39:45.752Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PintuDepanController.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuDepanController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PintuDepanController.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuDepanController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PintuDepanController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T09:05:05.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PintuController.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PintuController.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PintuController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PintuController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T07:51:43.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuUtama.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MenuUtama.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuUtama.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MenuUtama.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuUtama.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T15:14:02.403Z"
             },
             {
               "$type": "Document",
@@ -103,46 +41,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
               "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwEEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T14:35:07.548Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SenterController.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\SenterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SenterController.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\SenterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SenterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T08:04:44.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MouseLook.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MouseLook.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLook.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\MouseLook.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MouseLook.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA8wCYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T07:45:27.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Horror\\The Fuse\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T07:38:46.417Z"
             }
           ]
         }
