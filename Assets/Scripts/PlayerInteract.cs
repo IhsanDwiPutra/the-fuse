@@ -11,42 +11,51 @@ public class PlayerInteract : MonoBehaviour
     public TextMeshProUGUI teksLayar; // Wadah untuk teks UI
     public Light lampuRumah; // Wadah untuk lampu utama (matahari)
 
+    [Header("Event Awal Game")]
+    public SenterController kontrolSenter;
+    public PintuController[] daftarPintuKamarLain;
+    private bool sudahCekKotak = false;
+
+    [Header("Event Kamar Khusus")]
+    public PintuController pintuKamarKhusus;
+    public AudioSource suaraTangisan;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        // Memastikan saat awal main, tulisannya 0 / 3
-        teksLayar.text = "Sekering: 0 / 3";
+        teksLayar.text = "Ambil Senter di atas meja";
     }
 
     // Update is called once per frame
     void Update()
     {
-        // 1. Mengecek apakah pemain menekan tombol 'E'
         if (Input.GetKeyDown(KeyCode.E)) {
-            // 2. Menyiapkan variabel untuk menyimpan informasi benda apa yang ketabrak laser
+            // Menyiapkan variabel untuk menyimpan informasi benda apa yang ketabrak laser
             RaycastHit hit;
 
-            // 3. Menembakkan sinar laser (Raycast) dari kamera ke arah depan sepanjang 'jarakAmbil'
+            // Menembakkan sinar laser (Raycast) dari kamera ke arah depan sepanjang 'jarakAmbil'
             if (Physics.Raycast(transform.position, transform.forward, out hit, jarakAmbil)) {
-                // 4. Mengecek apakah benda yang ketabrak punya tag "sekering"
+                // Mengecek apakah benda yang ketabrak punya tag "sekering"
                 if (hit.transform.CompareTag("Sekering")) {
-                    // 5. Kalau benar itu sekering, kita ambil!
-                    jumlahSekering++; // Tambah jumlah sekering kita
-                    Debug.Log("Dapat satu sekering! Total sekarang: " + jumlahSekering);
+                    if (sudahCekKotak == true) {
+                        jumlahSekering++;
+                        Destroy(hit.transform.gameObject);
+                        teksLayar.text = "Sekering: " + jumlahSekering + " / 3";
 
-                    // 6. Hancurkan/hilangkan sekering dari dunia (karena ceritanya udah masok kantong)
-                    Destroy(hit.transform.gameObject);
+                        // Event nangis
+                        if (jumlahSekering == 2) {
+                            if (pintuKamarKhusus != null) {
+                                pintuKamarKhusus.isTerkunci = false;
+                            }
+                            if (suaraTangisan != null) { 
+                                suaraTangisan.Play();
+                            }
+                        }
 
-                    // Update tulisan id layar setiap dapat sekering
-                    teksLayar.text = "Sekering: " + jumlahSekering + " / 3";
-
-                    // Logika menang: Cek apakah sekering sudah 3 atau lebih?
-                    if (jumlahSekering >= 3) {
-                        // Nyalakan lampu utama
-                        lampuRumah.enabled = true;
-
-                        // Ubah tulisan menjadi menang
-                        teksLayar.text = "Listrik Menyala! Keluarrr!!!";
+                        if (jumlahSekering >= 3) {
+                            teksLayar.text = "Perbaiki Kotak Sekering!";
+                        }
                     }
                 } else if (hit.transform.CompareTag("Pintu")) {
                     // Ambil script pintu controller
@@ -74,12 +83,12 @@ public class PlayerInteract : MonoBehaviour
                     if (laci != null) {
                         laci.InteraksiLaci();
                     }
-                } else if (hit.transform.CompareTag("KotakSekering")) {
-                    PintuKotakSekeringController pintu = hit.transform.GetComponentInParent<PintuKotakSekeringController>();
+                // else if (hit.transform.CompareTag("PintuKotakSekering")) {
+                //    PintuKotakSekeringController pintu = hit.transform.GetComponentInParent<PintuKotakSekeringController>();
 
-                    if (pintu != null) {
-                        pintu.InteraksiPintuKotakSekering();
-                    }
+                //    if (pintu != null) {
+                //        pintu.InteraksiPintuKotakSekering();
+                //    }
                 } else if (hit.transform.CompareTag("TuasKotakSekering")) {
                     TuasController tuas = hit.transform.GetComponentInParent<TuasController>();
 
@@ -104,7 +113,37 @@ public class PlayerInteract : MonoBehaviour
                     if (pintu != null) {
                         pintu.InteraksiPintu();
                     }
-                }
+                } else if (hit.transform.CompareTag("Saklar")) {
+                    SaklarController saklar = hit.transform.GetComponentInParent<SaklarController>();
+
+                    if (saklar != null) {
+                        saklar.InteraksiSaklar();
+                    }
+
+                } else if (hit.transform.CompareTag("Senter")) {
+                    if (kontrolSenter != null) {
+                        kontrolSenter.punyaSenter = true;
+                    }
+
+                    Destroy(hit.transform.gameObject);
+                    teksLayar.text = "Cek Kotak Sekering di luar";
+
+                } else if (hit.transform.CompareTag("PintuKotakSekering")) {
+                    if (sudahCekKotak == false) {
+                        sudahCekKotak = true;
+                        teksLayar.text = "Sekering: 0 / 3";
+
+                        foreach (PintuController pintuu in daftarPintuKamarLain) {
+                            if (pintuu != null) {
+                                pintuu.isTerkunci = false;
+                            }
+                        }
+                    }
+                    PintuKotakSekeringController pintu = hit.transform.GetComponentInParent<PintuKotakSekeringController>();
+                    if (pintu != null) { 
+                        pintu.InteraksiPintuKotakSekering();
+                    }
+                } 
             }
         }
     }

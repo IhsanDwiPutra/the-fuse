@@ -7,6 +7,8 @@ public class PintuController : MonoBehaviour
     private Animator anim;
     private bool kondisiBuka = false;
 
+    public bool isTerkunci = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +24,16 @@ public class PintuController : MonoBehaviour
 
     // Fungsi ini akan dipanggil oleh tembakan laser pemain nanti
     public void InteraksiPintu() {
-        // Membalikkan keadaaan
-        kondisiBuka = !kondisiBuka;
 
-        // Mengirim perintah ke Animtor
-        anim.SetBool("isBuka", kondisiBuka);
+        if (isTerkunci) {
+            Debug.Log("Pintu Terkunci");
+        } else { 
+            // Membalikkan keadaaan
+            kondisiBuka = !kondisiBuka;
+
+            // Mengirim perintah ke Animtor
+            anim.SetBool("isBuka", kondisiBuka);
+        }
+
     }
 }

@@ -14,6 +14,9 @@ TagManager:
   - LaciDinding
   - LaciDapur
   - PintuBawahDapur
+  - Saklar
+  - Senter
+  - PintuKotakSekering
   layers:
   - Default
   - TransparentFX

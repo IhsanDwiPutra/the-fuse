@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PintuDepanController : MonoBehaviour
+public class SaklarController : MonoBehaviour
 {
     private Animator anim;
-    private bool isOpen = false;
-    public bool isTerkunci = false;
+    private bool isHidup = false;
+
+    public Light cahayaLampu;
 
     // Start is called before the first frame update
     void Start()
@@ -20,12 +21,14 @@ public class PintuDepanController : MonoBehaviour
         
     }
 
-    public void InteraksiPintu() {
-        if (isTerkunci) {
-            Debug.Log("Pintu Terkunci");
-        } else { 
-            isOpen = !isOpen;
-            anim.SetBool("isBuka", isOpen);
+    public void InteraksiSaklar() {
+        isHidup = !isHidup;
+
+        anim.SetBool("isHidup", isHidup);
+
+        if (cahayaLampu != null) {
+            cahayaLampu.enabled = isHidup;
         }
+
     }
 }

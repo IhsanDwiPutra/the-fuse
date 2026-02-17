@@ -5,23 +5,21 @@ using UnityEngine;
 public class SenterController : MonoBehaviour
 {
     public Light lampuSenter; // Tempat kita memasukkan senter nanti
-    private bool senterNyala = false; 
+    private bool senterNyala = false;
+
+    public bool punyaSenter = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        lampuSenter.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Mengecek apakah pemain menekan tombol F di keyboard
-        if (Input.GetKeyDown(KeyCode.F)) {
-            // Membalikkan keadaan. kalau nyala jadi mati, mati jadi nyala.
+        if (punyaSenter == true && Input.GetKeyDown(KeyCode.F)) {
             senterNyala = !senterNyala;
-
-            // Menerapkan keadaan tersebut ke lampunya
             lampuSenter.enabled = senterNyala;
         }
     }
