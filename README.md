@@ -9,6 +9,13 @@
 * **Tantangan Horror:** Game ini mungkin tidak mengandalkan "*jump  scare*" dari entitas musuh. Rasa takut dibangun murni melalui atmosfer: suara langkah kaki yang menggema, hembusan angin, pintu yang tiba-tiba berderit, dan jarak pandang senter yang sangat terbatas.
 * **Penyelesaian:** Setelah ketiga sekering ditemukan, pemain dapat berinteraksi dengan kotak panel listrik. Cahaya akan menyala kembali, suasana mencekam menghilang, dan pintu utama dapat dibuka untuk memenangkan permainan.
 
+## 📷 Cuplikan Permainan
+![Main Menu](Screenshots/MainMenu.png)
+![Gameplay 1](Screenshots/Gameplay1.png)
+![Gameplay 2](Screenshots/Gameplay2.png)
+![Gameplay 3](Screenshots/Gameplay3.png)
+![Gameplay 4](Screenshots/Gameplay4.png)
+
 ## 💡 Sorotan Proyek & Mekanik
 Proyek ini didesain dengan ruang lingkup yang padat dan terarah untuk memaksimalkan implementasi fitur inti:
 * **Mekanik Terfokus:** Mengutamakan sistem pergerakan dasar (berjalan dan berlari), kontrol senter, dan interaksi objek. Fitur pergerakan kompleks seperti *crouch* (jongkok) atau melompat sengaja ditiadakan untuk menjaga stabilitas level dan mencegah *bug*.
@@ -19,11 +26,14 @@ Proyek ini didesain dengan ruang lingkup yang padat dan terarah untuk memaksimal
 Berikut adalah tahapan pengembangan proyek game ini:
 - [x] **Setup & Pergerakan:** Inisialisasi proyek Unity dan pembuatan *First Person Controller*.
 - [x] **Desain Level Dasar:** *Prototyping* lantai, dinding, dan pintu.
-- [ ] **Mekanik Senter:** Implementasi sistem lampu sorot (*toggle on/off*).
-- [ ] **Sistem Interaksi (Raycast):** Deteksi objek saat pemain menatap sekering dan input interaksi untuk mengambil barang.
-- [ ] **Kondisi Menang & UI:** Penambahan antarmuka pengguna dan logika penyelesaian (3 sekering terkumpul = listrik menyala).
-- [ ] **Main Menu:** Pembuatan layar awal dengan tombol *Play* dan *Quit*.
-- [ ] **Polesan Akhir (Audio & Lighting):** Integrasi efek suara horor dan penyesuaian gelap-terangnya ruangan.
+- [x] **Mekanik Senter:** Implementasi sistem lampu sorot (*toggle on/off*).
+- [x] **Sistem Interaksi (Raycast):** Deteksi objek saat pemain menatap sekering dan input interaksi untuk mengambil barang.
+- [x] **Kondisi Menang & UI:** Penambahan antarmuka pengguna dan logika penyelesaian (3 sekering terkumpul = listrik menyala).
+- [x] **Main Menu:** Pembuatan layar awal dengan tombol *Play* dan *Quit*.
+- [x] **Polesan Akhir (Audio & Lighting):** Integrasi efek suara horor dan penyesuaian gelap-terangnya ruangan.
+
+## Rilis
+* **v1.0:** Kamis, 19 Februari 2026
 
 ---
 *Developed by Sandzzz Dev | Sambas, Indonesia | Sabtu, 14 Februari 2026*

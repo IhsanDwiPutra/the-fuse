@@ -6,8 +6,8 @@ public class SenterController : MonoBehaviour
 {
     public Light lampuSenter; // Tempat kita memasukkan senter nanti
     private bool senterNyala = false;
-
     public bool punyaSenter = false;
+    public AudioSource senterOn;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,7 @@ public class SenterController : MonoBehaviour
     void Update()
     {
         if (punyaSenter == true && Input.GetKeyDown(KeyCode.F)) {
+            senterOn.Play();
             senterNyala = !senterNyala;
             lampuSenter.enabled = senterNyala;
         }

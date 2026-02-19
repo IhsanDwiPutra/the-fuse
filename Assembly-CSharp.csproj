@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\SekeringSpawner.cs" />
     <Compile Include="Assets\Scripts\LemariBesarController.cs" />
     <Compile Include="Assets\Scripts\MenuUtama.cs" />
+    <Compile Include="Assets\Scripts\SuaraLangkah.cs" />
     <Compile Include="Assets\Scripts\FlashhController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PintuDepanController.cs" />
@@ -76,6 +77,10 @@
     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PintuBawahDapurController.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\JumpscareBalikBadan.cs" />
+    <Compile Include="Assets\Scripts\OpeningCutscene.cs" />
+    <Compile Include="Assets\Scripts\TitikAkhir.cs" />
     <Compile Include="Assets\Scripts\SaklarController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\LaciDindingController.cs" />

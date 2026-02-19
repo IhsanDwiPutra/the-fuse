@@ -5,7 +5,7 @@ using UnityEngine;
 public class SaklarController : MonoBehaviour
 {
     private Animator anim;
-    private bool isHidup = false;
+    private bool isHidup = true;
 
     public Light cahayaLampu;
 
